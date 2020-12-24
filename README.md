@@ -1,1 +1,8 @@
 # mp2_armazem
+
+Este projeto tem como objetivo a gestão de um armazém. O ramo de negócio e a caraterização de cada produto em stock ficou ao critério de cada grupo. O nosso grupo optou por escolher um ramo de negócio que fosse abrangente, no sentido que os produtos em stock no armazém fossem variados. Para tal, o foco do nosso negócio são moveis e artigos de decoração. Os produtos em stock podem ser qualquer tipo de móveis, desde mesas e cadeiras a colchoes e espelhos, e qualquer artigo de decoração, desde jarros a quadros. 
+
+Do enunciado do problemas retiramos que devem ser várias as operações a realizar sobre os produtos em stock. Elas são: (i) carregar (ler os dados relativos a cada produto no armazém, os quais serão inseridos direta e manualmente no terminal pelo operador); (ii) apagar (remover um produto do armazém); (iii) ver (visualizar os dados dum certo produto do armazém ou uma listagem global de todos) e (iv) manter (corrigir um ou mais dados); (v) ler encomendas, uma de cada vez, inseridas manualmente
+pelo operador no terminal; (vi) verificar se a encomenda é exequível, ou seja, se há em stock a quantidade suficiente de cada item; (vii) atualizar o stock; (viii) calcular o valor total da encomenda.
+Para não perder os dados dos produtos em armazém entre as sessões de trabalho, as informações contidas na lista ligada (sobre os produtos em stock), devem ser guardadas num ficheiro de texto sequencial. Para tal, devemos escrever os dados no ficheiro com a função fprintf.
+No início de uma nova sessão esses dados devem ser lidos com fscanf e fgets para reconstruir a lista ligada.
